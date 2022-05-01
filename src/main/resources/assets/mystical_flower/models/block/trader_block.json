@@ -1,0 +1,8 @@
+{
+  "parent": "mystical_flower:custom/trader_block",
+  "textures": {
+    "all": "mystical_flower:blocks/trader_block",
+    "particle": "mystical_flower:blocks/trader_block",
+    "0": "mystical_flower:blocks/trader_block"
+  }
+}

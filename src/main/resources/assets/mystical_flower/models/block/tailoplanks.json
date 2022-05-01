@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mystical_flower:blocks/tailo_planks",
+    "up": "mystical_flower:blocks/tailo_planks",
+    "north": "mystical_flower:blocks/tailo_planks",
+    "east": "mystical_flower:blocks/tailo_planks",
+    "south": "mystical_flower:blocks/tailo_planks",
+    "west": "mystical_flower:blocks/tailo_planks",
+    "particle": "mystical_flower:blocks/tailo_planks"
+  }
+}

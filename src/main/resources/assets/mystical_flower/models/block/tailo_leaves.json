@@ -1,0 +1,7 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "mystical_flower:blocks/tailo_leaves",
+    "particle": "mystical_flower:blocks/tailo_leaves"
+  }
+}

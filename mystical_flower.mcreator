@@ -1,0 +1,328 @@
+{
+  "mod_elements": [
+    {
+      "name": "MysticalFlowerBlockCreativeTab",
+      "type": "tab",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystical_flower_block_creative_tab",
+      "path": "~/Category"
+    },
+    {
+      "name": "TraderBlock",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trader_block",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MiniCactusDamagePlayerProc",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mini_cactus_damage_player_proc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Blocks/Flower"
+    },
+    {
+      "name": "MiniCactus",
+      "type": "plant",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mini_cactus",
+      "path": "~/Blocks/Flower"
+    },
+    {
+      "name": "TailoLog",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tailo_log",
+      "path": "~/Blocks/Tree/Tailo"
+    },
+    {
+      "name": "TailoLeaves",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tailo_leaves",
+      "path": "~/Blocks/Tree/Tailo"
+    },
+    {
+      "name": "CrimsonNyliumPath",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_nylium_path",
+      "path": "~/Blocks/Paths"
+    },
+    {
+      "name": "CrimsonNyliumPathLoot",
+      "type": "loottable",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimson_nylium_path_loot",
+      "path": "~/Blocks/Paths"
+    },
+    {
+      "name": "Strippedtailolog",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strippedtailolog",
+      "path": "~/Blocks/Tree/Tailo"
+    },
+    {
+      "name": "Tailoplanks",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tailoplanks",
+      "path": "~/Blocks/Tree/Tailo"
+    },
+    {
+      "name": "TailoFence",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tailo_fence",
+      "path": "~/Blocks/Tree/Tailo"
+    },
+    {
+      "name": "TailoSlab",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tailo_slab",
+      "path": "~/Blocks/Tree/Tailo"
+    },
+    {
+      "name": "TailoFenceGate",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tailo_fence_gate",
+      "path": "~/Blocks/Tree/Tailo"
+    },
+    {
+      "name": "TailoButton",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tailo_button",
+      "path": "~/Blocks/Tree/Tailo"
+    },
+    {
+      "name": "LogsItem",
+      "type": "tag",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "logs_item",
+      "path": "~/Tags/Item"
+    },
+    {
+      "name": "PlanksItem",
+      "type": "tag",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "planks_item",
+      "path": "~/Tags/Item"
+    },
+    {
+      "name": "SlabsItem",
+      "type": "tag",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slabs_item",
+      "path": "~/Tags/Item"
+    },
+    {
+      "name": "WoodenSlabsItem",
+      "type": "tag",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_slabs_item",
+      "path": "~/Tags/Item"
+    },
+    {
+      "name": "StrippingProcedure",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripping_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "PathProcedure",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "path_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabmystical_flower_block_creative_tab": "Mystical Flower - Block",
+      "block.mystical_flower.tailo_slab": "Tailo Slab",
+      "block.mystical_flower.trader_block": "Trader Block",
+      "block.mystical_flower.tailo_log": "Tailo Log",
+      "block.mystical_flower.strippedtailolog": "Stripped Tailo Log",
+      "block.mystical_flower.tailo_leaves": "Tailo Leaves",
+      "block.mystical_flower.tailo_fence_gate": "Tailo Fence Gate",
+      "block.mystical_flower.tailoplanks": "Tailo Planks",
+      "block.mystical_flower.tailo_button": "Tailo Button",
+      "block.mystical_flower.crimson_nylium_path": "Crimson Nylium Path",
+      "block.mystical_flower.mini_cactus": "Mini Cactus",
+      "block.mystical_flower.tailo_fence": "Tailo Fence"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Blocks",
+        "children": [
+          {
+            "name": "Flower",
+            "children": []
+          },
+          {
+            "name": "Tree",
+            "children": [
+              {
+                "name": "Tailo",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Paths",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Category",
+        "children": []
+      },
+      {
+        "name": "Tags",
+        "children": [
+          {
+            "name": "Item",
+            "children": []
+          },
+          {
+            "name": "Block",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "mystical_flower",
+    "modName": "Mystical Flower",
+    "version": "0.0.1",
+    "author": "CoringPlay, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "just_enough_items",
+      "crafttweaker-1.16.5"
+    ],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.mystical_flower",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}

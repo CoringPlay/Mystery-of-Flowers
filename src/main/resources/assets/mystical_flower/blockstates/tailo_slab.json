@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mystical_flower:block/tailo_slab"
+    },
+    "type=top": {
+      "model": "mystical_flower:block/tailo_slab_top"
+    },
+    "type=double": {
+      "model": "mystical_flower:block/tailo_slab_full"
+    }
+  }
+}

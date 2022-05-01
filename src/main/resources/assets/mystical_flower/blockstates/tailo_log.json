@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "mystical_flower:block/tailo_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "mystical_flower:block/tailo_log"
+    },
+    "axis=z": {
+      "model": "mystical_flower:block/tailo_log",
+      "x": 90
+    }
+  }
+}

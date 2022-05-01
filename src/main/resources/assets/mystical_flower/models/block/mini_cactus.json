@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "mystical_flower:blocks/mini_cactus",
+    "particle": "mystical_flower:blocks/mini_cactus"
+  }
+}

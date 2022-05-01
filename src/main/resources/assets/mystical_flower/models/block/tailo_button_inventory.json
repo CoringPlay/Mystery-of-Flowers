@@ -1,0 +1,6 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "mystical_flower:blocks/tailo_planks"
+  }
+}

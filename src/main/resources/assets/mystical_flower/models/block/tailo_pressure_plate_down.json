@@ -1,0 +1,6 @@
+{
+  "parent": "block/pressure_plate_down",
+  "textures": {
+    "texture": "mystical_flower:blocks/tailo_planks"
+  }
+}

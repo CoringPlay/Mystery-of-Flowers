@@ -1,0 +1,6 @@
+{
+  "parent": "block/template_fence_gate_wall",
+  "textures": {
+    "texture": "mystical_flower:blocks/tailo_planks"
+  }
+}

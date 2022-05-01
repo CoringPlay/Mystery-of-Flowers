@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mystical_flower:blocks/stripped_tailo_log_top",
+    "up": "mystical_flower:blocks/stripped_tailo_log_top",
+    "north": "mystical_flower:blocks/stripped_tailo_log",
+    "east": "mystical_flower:blocks/stripped_tailo_log",
+    "south": "mystical_flower:blocks/stripped_tailo_log",
+    "west": "mystical_flower:blocks/stripped_tailo_log",
+    "particle": "mystical_flower:blocks/stripped_tailo_log_top"
+  }
+}

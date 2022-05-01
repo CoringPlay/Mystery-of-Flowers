@@ -1,0 +1,8 @@
+{
+  "parent": "mystical_flower:custom/crimson_nylium_path",
+  "textures": {
+    "all": "mystical_flower:blocks/crimson_nylium_path",
+    "particle": "mystical_flower:blocks/crimson_nylium_path",
+    "0": "mystical_flower:blocks/crimson_nylium_path"
+  }
+}

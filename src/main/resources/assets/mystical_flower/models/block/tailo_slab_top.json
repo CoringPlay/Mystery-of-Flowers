@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "mystical_flower:blocks/tailo_planks",
+    "top": "mystical_flower:blocks/tailo_planks",
+    "side": "mystical_flower:blocks/tailo_planks"
+  }
+}

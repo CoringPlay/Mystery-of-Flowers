@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "mystical_flower:blocks/tailo_planks",
+    "particle": "mystical_flower:blocks/tailo_planks"
+  }
+}
