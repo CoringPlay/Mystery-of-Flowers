@@ -12,7 +12,7 @@
     {
       "name": "TraderBlock",
       "type": "block",
-      "sortid": 9,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trader_block",
@@ -65,7 +65,7 @@
     {
       "name": "CrimsonNyliumPath",
       "type": "block",
-      "sortid": 10,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crimson_nylium_path",
@@ -235,6 +235,24 @@
         ]
       },
       "path": "~/Procedures"
+    },
+    {
+      "name": "LogsBlock",
+      "type": "tag",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "logs_block",
+      "path": "~/Tags/Block"
+    },
+    {
+      "name": "PlanksBlock",
+      "type": "tag",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "planks_block",
+      "path": "~/Tags/Block"
     }
   ],
   "variable_elements": [],
@@ -243,7 +261,7 @@
     "en_us": {
       "itemGroup.tabmystical_flower_block_creative_tab": "Mystical Flower - Block",
       "block.mystical_flower.tailo_slab": "Tailo Slab",
-      "block.mystical_flower.trader_block": "Trader Block",
+      "block.mystical_flower.trader_block": "Trader Block (WIP)",
       "block.mystical_flower.tailo_log": "Tailo Log",
       "block.mystical_flower.strippedtailolog": "Stripped Tailo Log",
       "block.mystical_flower.tailo_leaves": "Tailo Leaves",
@@ -300,6 +318,10 @@
       {
         "name": "Procedures",
         "children": []
+      },
+      {
+        "name": "Village_Trade",
+        "children": []
       }
     ]
   },
@@ -324,5 +346,5 @@
     "modElementsPackage": "net.mcreator.mystical_flower",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100354000
+  "mcreatorVersion": 202200120510
 }

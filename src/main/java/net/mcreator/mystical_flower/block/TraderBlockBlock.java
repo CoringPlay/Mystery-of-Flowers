@@ -48,7 +48,7 @@ public class TraderBlockBlock extends MysticalFlowerModElements.ModElement {
 	public static final Block block = null;
 
 	public TraderBlockBlock(MysticalFlowerModElements instance) {
-		super(instance, 9);
+		super(instance, 10);
 	}
 
 	@Override

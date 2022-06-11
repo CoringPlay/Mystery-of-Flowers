@@ -31,7 +31,7 @@ public class CrimsonNyliumPathBlock extends MysticalFlowerModElements.ModElement
 	public static final Block block = null;
 
 	public CrimsonNyliumPathBlock(MysticalFlowerModElements instance) {
-		super(instance, 10);
+		super(instance, 9);
 	}
 
 	@Override

@@ -2,8 +2,9 @@
   "_fv": 28,
   "_type": "tag",
   "definition": {
-    "type": "Items",
-    "items": [
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
       {
         "value": "CUSTOM:TailoLog"
       },
@@ -11,7 +12,6 @@
         "value": "CUSTOM:Strippedtailolog"
       }
     ],
-    "blocks": [],
     "functions": [],
     "entities": [],
     "name": "logs",

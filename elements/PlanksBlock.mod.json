@@ -2,16 +2,16 @@
   "_fv": 28,
   "_type": "tag",
   "definition": {
-    "type": "Items",
+    "type": "Blocks",
     "items": [
       {
-        "value": "CUSTOM:TailoSlab"
+        "value": "CUSTOM:Tailoplanks"
       }
     ],
     "blocks": [],
     "functions": [],
     "entities": [],
-    "name": "wooden_slabs",
+    "name": "planks",
     "namespace": "minecraft"
   }
 }

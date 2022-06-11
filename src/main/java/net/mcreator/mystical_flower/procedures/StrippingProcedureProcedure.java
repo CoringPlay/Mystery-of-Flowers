@@ -90,9 +90,9 @@ public class StrippingProcedureProcedure {
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		Entity entity = (Entity) dependencies.get("entity");
 		if (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY).getItem() instanceof AxeItem
-				&& (world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == TailoLogBlock.block) {
+				&& (world.getBlockState(new BlockPos(x, y, z))).getBlock() == TailoLogBlock.block) {
 			{
-				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+				BlockPos _bp = new BlockPos(x, y, z);
 				BlockState _bs = StrippedtailologBlock.block.getDefaultState();
 				BlockState _bso = world.getBlockState(_bp);
 				for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
@@ -110,7 +110,7 @@ public class StrippingProcedureProcedure {
 			}
 			if (world instanceof World && !world.isRemote()) {
 				((World) world)
-						.playSound(null, new BlockPos((int) x, (int) y, (int) z),
+						.playSound(null, new BlockPos(x, y, z),
 								(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
 										.getValue(new ResourceLocation("ambient.basalt_deltas.additions")),
 								SoundCategory.NEUTRAL, (float) 1, (float) 1);

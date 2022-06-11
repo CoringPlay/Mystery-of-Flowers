@@ -19,16 +19,4 @@ authors="CoringPlay, MCreator"
 
 
 
-[[dependencies.mystical_flower]]
-    modId="just_enough_items"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.mystical_flower]]
-    modId="crafttweaker-1.16.5"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
 

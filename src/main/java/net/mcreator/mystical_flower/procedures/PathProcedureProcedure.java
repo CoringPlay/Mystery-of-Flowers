@@ -90,9 +90,9 @@ public class PathProcedureProcedure {
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		Entity entity = (Entity) dependencies.get("entity");
 		if (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY).getItem() instanceof ShovelItem
-				&& (world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.CRIMSON_NYLIUM) {
+				&& (world.getBlockState(new BlockPos(x, y, z))).getBlock() == Blocks.CRIMSON_NYLIUM) {
 			{
-				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+				BlockPos _bp = new BlockPos(x, y, z);
 				BlockState _bs = CrimsonNyliumPathBlock.block.getDefaultState();
 				BlockState _bso = world.getBlockState(_bp);
 				for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
@@ -109,7 +109,7 @@ public class PathProcedureProcedure {
 				((LivingEntity) entity).swing(Hand.MAIN_HAND, true);
 			}
 			if (world instanceof World && !world.isRemote()) {
-				((World) world).playSound(null, new BlockPos((int) x, (int) y, (int) z),
+				((World) world).playSound(null, new BlockPos(x, y, z),
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.shovel.flatten")),
 						SoundCategory.NEUTRAL, (float) 1, (float) 1);
 			} else {

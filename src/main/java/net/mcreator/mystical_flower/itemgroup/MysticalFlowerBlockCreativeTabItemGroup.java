@@ -6,8 +6,8 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
-import net.minecraft.block.Blocks;
 
+import net.mcreator.mystical_flower.block.TailoLeavesBlock;
 import net.mcreator.mystical_flower.MysticalFlowerModElements;
 
 @MysticalFlowerModElements.ModElement.Tag
@@ -22,7 +22,7 @@ public class MysticalFlowerBlockCreativeTabItemGroup extends MysticalFlowerModEl
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(Blocks.AIR);
+				return new ItemStack(TailoLeavesBlock.block);
 			}
 
 			@OnlyIn(Dist.CLIENT)
