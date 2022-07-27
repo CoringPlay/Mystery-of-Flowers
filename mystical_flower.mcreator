@@ -253,6 +253,15 @@
       "locked_code": false,
       "registry_name": "planks_block",
       "path": "~/Tags/Block"
+    },
+    {
+      "name": "SlabsBlock",
+      "type": "tag",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slabs_block",
+      "path": "~/Tags/Block"
     }
   ],
   "variable_elements": [],
