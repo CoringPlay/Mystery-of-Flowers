@@ -8,7 +8,11 @@
         "value": "CUSTOM:Tailoplanks"
       }
     ],
-    "blocks": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Tailoplanks"
+      }
+    ],
     "functions": [],
     "entities": [],
     "name": "planks",
