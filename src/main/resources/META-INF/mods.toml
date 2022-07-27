@@ -8,7 +8,7 @@ version="0.0.1"
 displayName="Mystical Flower"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="CoringPlay, MCreator"
+authors="CoringPlay472, MCreator"
 
 [[dependencies.mystical_flower]]
     modId="minecraft"
@@ -19,4 +19,16 @@ authors="CoringPlay, MCreator"
 
 
 
+[[dependencies.mystical_flower]]
+    modId="crafttweaker"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.mystical_flower]]
+    modId="jei"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 

@@ -329,7 +329,7 @@
     "modid": "mystical_flower",
     "modName": "Mystical Flower",
     "version": "0.0.1",
-    "author": "CoringPlay, MCreator",
+    "author": "CoringPlay472, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "MIT License",
     "disableForgeVersionCheck": true,
@@ -338,8 +338,8 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [
-      "just_enough_items",
-      "crafttweaker-1.16.5"
+      "crafttweaker",
+      "jei"
     ],
     "currentGenerator": "forge-1.16.5",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
